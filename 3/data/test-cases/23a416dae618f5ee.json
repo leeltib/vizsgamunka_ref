@@ -1,0 +1,120 @@
+{
+  "uid" : "23a416dae618f5ee",
+  "name" : "test_t_case010",
+  "fullName" : "test_proj.test_index_local#test_t_case010",
+  "historyId" : "e37492e5d04c7817afaec66148ddb7da",
+  "time" : {
+    "start" : 1631651672828,
+    "stop" : 1631651784733,
+    "duration" : 111905
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+  "statusTrace" : "def test_t_case010():\n        import test_tcA010 as tc10\n>       assert tc10.expect_valid == tc10.sign_up_valid_list\nE       AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\nE         At index 2 diff: 'FAIL' != 'OK'\nE         Use -v to get the full diff\n\ntest_proj/test_index_local.py:151: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+    "statusTrace" : "def test_t_case010():\n        import test_tcA010 as tc10\n>       assert tc10.expect_valid == tc10.sign_up_valid_list\nE       AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\nE         At index 2 diff: 'FAIL' != 'OK'\nE         Use -v to get the full diff\n\ntest_proj/test_index_local.py:151: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3f0c109e23be709",
+      "name" : "log",
+      "source" : "e3f0c109e23be709.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "8f410f58beda294f",
+      "name" : "stdout",
+      "source" : "8f410f58beda294f.txt",
+      "type" : "text/plain",
+      "size" : 2106
+    }, {
+      "uid" : "8c732b9d9c0d4b4a",
+      "name" : "stderr",
+      "source" : "8c732b9d9c0d4b4a.txt",
+      "type" : "text/plain",
+      "size" : 214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_proj"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_local"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-176"
+  }, {
+    "name" : "thread",
+    "value" : "3505-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_proj.test_index_local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5c80bc2e0a9089e6",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/2//#testresult/5c80bc2e0a9089e6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1631651200784,
+          "stop" : 1631651313943,
+          "duration" : 113159
+        }
+      }, {
+        "uid" : "ff4809a390d6bdba",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/ff4809a390d6bdba",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+        "time" : {
+          "start" : 1631651062676,
+          "stop" : 1631651175905,
+          "duration" : 113229
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "23a416dae618f5ee.json",
+  "parameterValues" : [ ]
+}
