@@ -19,7 +19,7 @@ user_acc = [da11.users[1][0], da11.users[1][1], da11.users[1][2]]
 # "I decline!" button on click test
 def test_A011_cookie_decline(users):
     options = Options()
-    options.headless = False
+    options.headless = True
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     driver.get("http://localhost:1667")
     fu01.wait(driver, By.ID, "app", 1)
@@ -48,7 +48,7 @@ cookie_valid_dec = test_A011_cookie_decline(user_dec)
 # "I accept!" button on click test
 def test_A011_cookie_accept(users):
     options = Options()
-    options.headless = False
+    options.headless = True
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     driver.get("http://localhost:1667")
     fu01.wait(driver, By.ID, "app", 1)
