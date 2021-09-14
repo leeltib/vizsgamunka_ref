@@ -1,0 +1,101 @@
+{
+  "uid" : "d692d464f3d64236",
+  "name" : "test_t_case005",
+  "fullName" : "test_proj.test_index_local#test_t_case005",
+  "historyId" : "f798a1b1e98bfa14c8d7778f4b95c3d3",
+  "time" : {
+    "start" : 1631650785732,
+    "stop" : 1631650810060,
+    "duration" : 24328
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1326282cbfe39b6",
+      "name" : "log",
+      "source" : "b1326282cbfe39b6.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "6a463330f5e1d02d",
+      "name" : "stdout",
+      "source" : "6a463330f5e1d02d.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "670d8a1fee13e6dd",
+      "name" : "stderr",
+      "source" : "670d8a1fee13e6dd.txt",
+      "type" : "text/plain",
+      "size" : 214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_proj"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_local"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-196"
+  }, {
+    "name" : "thread",
+    "value" : "3580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_proj.test_index_local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c4d133d6be3ec9bf",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/c4d133d6be3ec9bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631650650172,
+          "stop" : 1631650674396,
+          "duration" : 24224
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d692d464f3d64236.json",
+  "parameterValues" : [ ]
+}
