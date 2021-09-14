@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 11,
+    "retry" : 0
+  }
+} ]

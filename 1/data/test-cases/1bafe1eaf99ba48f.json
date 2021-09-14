@@ -1,0 +1,89 @@
+{
+  "uid" : "1bafe1eaf99ba48f",
+  "name" : "test_t_case009",
+  "fullName" : "test_proj.test_index_local#test_t_case009",
+  "historyId" : "c3e2619e6d2820221f0f09ebc46c2cd6",
+  "time" : {
+    "start" : 1631651016721,
+    "stop" : 1631651062637,
+    "duration" : 45916
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+  "statusTrace" : "def test_t_case009():\n        import test_tcA009 as tc09\n>       assert tc09.pages_blog_num == 10\nE       AssertionError: assert 13 == 10\nE        +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num\n\ntest_proj/test_index_local.py:140: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+    "statusTrace" : "def test_t_case009():\n        import test_tcA009 as tc09\n>       assert tc09.pages_blog_num == 10\nE       AssertionError: assert 13 == 10\nE        +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num\n\ntest_proj/test_index_local.py:140: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "509aaf5ba9c8349a",
+      "name" : "log",
+      "source" : "509aaf5ba9c8349a.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "8383bf64ba5ee684",
+      "name" : "stdout",
+      "source" : "8383bf64ba5ee684.txt",
+      "type" : "text/plain",
+      "size" : 408
+    }, {
+      "uid" : "2c38d64798fda749",
+      "name" : "stderr",
+      "source" : "2c38d64798fda749.txt",
+      "type" : "text/plain",
+      "size" : 214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_proj"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_local"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-960"
+  }, {
+    "name" : "thread",
+    "value" : "3678-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_proj.test_index_local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1bafe1eaf99ba48f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,10 @@
+[{'username': 'qipecers', 'email': 'grsbapi@gmail.com', 'password': 'n7Eki0Du'}, {'username': 'xanjqxzv', 'email': 'xfdpynw@gmail.com', 'password': 's7Whr7Dy'}]
+[['qipecers', 'grsbapi@gmail.com', 'n7Eki0Du'], ['xanjqxzv', 'xfdpynw@gmail.com', 's7Whr7Dy']]
+"I decline!" click
+qipecers
+No cookies
+qipecers
+"I accept!" click
+xanjqxzv
+No cookies
+xanjqxzv

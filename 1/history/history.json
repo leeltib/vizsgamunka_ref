@@ -1,0 +1,224 @@
+{
+  "a87ddcef6163f1942d58df1b9b11e8de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e60f6803f4749b38",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/e60f6803f4749b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631651175911,
+        "stop" : 1631651216516,
+        "duration" : 40605
+      }
+    } ]
+  },
+  "999a33e48aed986128762dea0510199e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f055e2bb0cde4241",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/f055e2bb0cde4241",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650840355,
+        "stop" : 1631650869159,
+        "duration" : 28804
+      }
+    } ]
+  },
+  "0f3346f6f071d366701baaf23739e588" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f37a8b174f29260d",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/f37a8b174f29260d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650674399,
+        "stop" : 1631650840352,
+        "duration" : 165953
+      }
+    } ]
+  },
+  "d7f6f0d3ced77f1ad2d51a5f679049f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b09b123e592b7ef",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/b09b123e592b7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650614768,
+        "stop" : 1631650650169,
+        "duration" : 35401
+      }
+    } ]
+  },
+  "d6048e34b352d6216e86b9a314f2f5fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8e1c8796045d99a",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/d8e1c8796045d99a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650548371,
+        "stop" : 1631650580931,
+        "duration" : 32560
+      }
+    } ]
+  },
+  "e37492e5d04c7817afaec66148ddb7da" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff4809a390d6bdba",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/ff4809a390d6bdba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1631651062676,
+        "stop" : 1631651175905,
+        "duration" : 113229
+      }
+    } ]
+  },
+  "d955e97f03db9cd25f9de3d7506ccc69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fff8593e77f1eea4",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/fff8593e77f1eea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650869162,
+        "stop" : 1631651016719,
+        "duration" : 147557
+      }
+    } ]
+  },
+  "f798a1b1e98bfa14c8d7778f4b95c3d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4d133d6be3ec9bf",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/c4d133d6be3ec9bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650650172,
+        "stop" : 1631650674396,
+        "duration" : 24224
+      }
+    } ]
+  },
+  "c3e2619e6d2820221f0f09ebc46c2cd6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bafe1eaf99ba48f",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/1bafe1eaf99ba48f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+      "time" : {
+        "start" : 1631651016721,
+        "stop" : 1631651062637,
+        "duration" : 45916
+      }
+    } ]
+  },
+  "74692d80db66f81dae40aff4bfa8fe2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c0c4ad8daa5a59b",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/3c0c4ad8daa5a59b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650591704,
+        "stop" : 1631650614764,
+        "duration" : 23060
+      }
+    } ]
+  },
+  "6f57eef23b2485463bdff4c6d4369ef9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b365c20c379df1d2",
+      "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/b365c20c379df1d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631650580935,
+        "stop" : 1631650591702,
+        "duration" : 10767
+      }
+    } ]
+  }
+}
