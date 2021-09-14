@@ -12,17 +12,17 @@ def time_sl():
 
 
 # tcA001_run = A001 test case - New user registration with user name, email and password
-tcA001_run = False
+tcA001_run = True
 # tcA002_run = A002 test case - Login in with new user data - exit
 tcA002_run = False
 # tcA003_run = A003 test case - New blog post  - exit
-tcA003_run = False
+tcA003_run = True
 # tcA004_run = A004 test case - Modifying existing blogpost - exit
-tcA004_run = False
+tcA004_run = True
 # tcA005_run = A005 test case - Deleting own blogpost - exit
-tcA005_run = False
+tcA005_run = True
 # tcA006_run = A006 test case - Testing Tags function (by listing)
-tcA006_run = False
+tcA006_run = True
 # tcA007_run = A007 test case - User select function -> write selected user's posts to text file
 tcA007_run = True
 # tcA008_run = A008 test case - Comment function -> commenting, checking and deleting of selected posts
