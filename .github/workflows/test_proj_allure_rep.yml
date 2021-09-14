@@ -2,9 +2,9 @@ name: Pytest_conduit_allure
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   full_test:
