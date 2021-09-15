@@ -1,0 +1,140 @@
+{
+  "uid" : "4635b580a5055f74",
+  "name" : "test_t_case009",
+  "fullName" : "test_proj.test_index_local#test_t_case009",
+  "historyId" : "c3e2619e6d2820221f0f09ebc46c2cd6",
+  "time" : {
+    "start" : 1631729597955,
+    "stop" : 1631729644083,
+    "duration" : 46128
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+  "statusTrace" : "def test_t_case009():\n        import test_tcA009 as tc09\n>       assert tc09.pages_blog_num == 10\nE       AssertionError: assert 13 == 10\nE        +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num\n\ntest_proj/test_index_local.py:140: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+    "statusTrace" : "def test_t_case009():\n        import test_tcA009 as tc09\n>       assert tc09.pages_blog_num == 10\nE       AssertionError: assert 13 == 10\nE        +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num\n\ntest_proj/test_index_local.py:140: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "66ea46ae4a85c154",
+      "name" : "log",
+      "source" : "66ea46ae4a85c154.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "5b4cb7346b567830",
+      "name" : "stdout",
+      "source" : "5b4cb7346b567830.txt",
+      "type" : "text/plain",
+      "size" : 408
+    }, {
+      "uid" : "e1102aad3003660c",
+      "name" : "stderr",
+      "source" : "e1102aad3003660c.txt",
+      "type" : "text/plain",
+      "size" : 214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_proj"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_local"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-407"
+  }, {
+    "name" : "thread",
+    "value" : "3534-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_proj.test_index_local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d413cc7424b08639",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/4//#testresult/d413cc7424b08639",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+        "time" : {
+          "start" : 1631729500205,
+          "stop" : 1631729546992,
+          "duration" : 46787
+        }
+      }, {
+        "uid" : "46c4bfed61fbdc3",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/3//#testresult/46c4bfed61fbdc3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+        "time" : {
+          "start" : 1631651627490,
+          "stop" : 1631651672793,
+          "duration" : 45303
+        }
+      }, {
+        "uid" : "a423855b76db8411",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/2//#testresult/a423855b76db8411",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+        "time" : {
+          "start" : 1631651153761,
+          "stop" : 1631651200744,
+          "duration" : 46983
+        }
+      }, {
+        "uid" : "1bafe1eaf99ba48f",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/1bafe1eaf99ba48f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+        "time" : {
+          "start" : 1631651016721,
+          "stop" : 1631651062637,
+          "duration" : 45916
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4635b580a5055f74.json",
+  "parameterValues" : [ ]
+}

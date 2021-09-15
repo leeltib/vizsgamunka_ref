@@ -1,0 +1,128 @@
+{
+  "uid" : "ad543c445b944ea1",
+  "name" : "test_t_case004",
+  "fullName" : "test_proj.test_index_local#test_t_case004",
+  "historyId" : "d7f6f0d3ced77f1ad2d51a5f679049f5",
+  "time" : {
+    "start" : 1631729191563,
+    "stop" : 1631729227744,
+    "duration" : 36181
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "619a8e11a503e063",
+      "name" : "log",
+      "source" : "619a8e11a503e063.txt",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "9562be19b99c3873",
+      "name" : "stdout",
+      "source" : "9562be19b99c3873.txt",
+      "type" : "text/plain",
+      "size" : 98
+    }, {
+      "uid" : "2931189f37b21522",
+      "name" : "stderr",
+      "source" : "2931189f37b21522.txt",
+      "type" : "text/plain",
+      "size" : 214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_proj"
+  }, {
+    "name" : "suite",
+    "value" : "test_index_local"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-407"
+  }, {
+    "name" : "thread",
+    "value" : "3534-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_proj.test_index_local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1443245a9886daa9",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/4//#testresult/1443245a9886daa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631729097995,
+          "stop" : 1631729132754,
+          "duration" : 34759
+        }
+      }, {
+        "uid" : "20420b672c639ed3",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/3//#testresult/20420b672c639ed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631651229667,
+          "stop" : 1631651264222,
+          "duration" : 34555
+        }
+      }, {
+        "uid" : "e76b3da444fdb676",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/2//#testresult/e76b3da444fdb676",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631650751527,
+          "stop" : 1631650785728,
+          "duration" : 34201
+        }
+      }, {
+        "uid" : "b09b123e592b7ef",
+        "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/1//#testresult/b09b123e592b7ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631650614768,
+          "stop" : 1631650650169,
+          "duration" : 35401
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ad543c445b944ea1.json",
+  "parameterValues" : [ ]
+}
