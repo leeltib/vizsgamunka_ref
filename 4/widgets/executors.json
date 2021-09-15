@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://leeltib.github.io/vizsgamunka_ref",
+  "buildOrder" : 4,
+  "buildName" : "GitHub Actions Run #1238702354",
+  "buildUrl" : "https://github.com/leeltib/vizsgamunka_ref/actions/runs/1238702354",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://leeltib.github.io/vizsgamunka_ref/4/"
+} ]
