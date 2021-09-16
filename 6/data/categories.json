@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 13 == 10\n +  where 13 = <module 'test_tcA009' from '/home/runner/work/vizsgamunka_ref/vizsgamunka_ref/test_proj/test_tcA009.py'>.pages_blog_num",
+      "children" : [ {
+        "name" : "test_t_case009",
+        "uid" : "91f9c1cf874ecb66",
+        "parentUid" : "9a45e353abfd33c4a7796bedebf153b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631772755979,
+          "stop" : 1631772802509,
+          "duration" : 46530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a45e353abfd33c4a7796bedebf153b7"
+    }, {
+      "name" : "AssertionError: assert ['OK', 'FAIL'..., 'FAIL', ...] == ['OK', 'FAIL'..., 'FAIL', ...]\n  At index 2 diff: 'FAIL' != 'OK'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_t_case010",
+        "uid" : "dc54d669b5bc984a",
+        "parentUid" : "d97fe468cfeebe413019c665588ab715",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631772802549,
+          "stop" : 1631772915009,
+          "duration" : 112460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d97fe468cfeebe413019c665588ab715"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
